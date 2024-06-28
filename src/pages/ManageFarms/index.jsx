@@ -310,7 +310,7 @@ const ManageFarmPage = () => {
             </span>
           </Popconfirm>
 
-          <Popconfirm
+          {/* <Popconfirm
             title="Bạn có chắc muốn xóa?"
             onConfirm={() => handleDeleteFarm({ farmId: record._id })}
             okText="Yes"
@@ -326,7 +326,7 @@ const ManageFarmPage = () => {
             >
               <DeleteOutlined />
             </Tooltip>
-          </Popconfirm>
+          </Popconfirm> */}
           <Tooltip
             title="Chỉnh sửa Địa chỉ ví"
             onClick={() => {
